@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vaccine Tracker</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyADyo6T74mF_hngJC1Rnh_crLaoRq7-yMo",
+      authDomain: "vaccinesforbabies.firebaseapp.com",
+      databaseURL: "https://vaccinesforbabies-default-rtdb.firebaseio.com",
+      projectId: "vaccinesforbabies",
+      storageBucket: "vaccinesforbabies.appspot.com",
+      messagingSenderId: "1033764055712",
+      appId: "1:1033764055712:web:3348932d0f0efb5634b7c5"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+
+
+  <script src="vaccinedetails.js"></script>
+
+  <script src="sign_in.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+
+</body>
+
+</html>
